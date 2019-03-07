@@ -1,9 +1,20 @@
 {
   "extends": "standard",
-
   "rules": {
-    "semi": [2, "always"],
+    "semi": [
+      2,
+      "always"
+    ],
     "no-extra-semi": 2,
-    "comma-dangle": [ "error", "always-multiline" ]
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "ignore"
+      }
+    ]
   }
 }
