@@ -1,5 +1,5 @@
 {
-  "extends": "standard",
+  "extends": ["standard", "semistandard-react"],
   "rules": {
     "semi": [
       2,
